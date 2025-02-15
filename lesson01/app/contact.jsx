@@ -3,7 +3,7 @@ import React from 'react'
 
 import coffeeBeans from "@/assets/images/coffee-splash.png"
 
-const Explore = () => {
+const contact = () => {
   return (
     <View style={styles.container}>
       <ImageBackground source={coffeeBeans} style={styles.image}>
@@ -13,7 +13,7 @@ const Explore = () => {
   )
 }
 
-export default Explore
+export default contact
 
 const styles = StyleSheet.create({
   container: {
